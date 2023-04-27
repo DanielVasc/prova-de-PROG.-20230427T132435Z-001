@@ -1,0 +1,23 @@
+<script>
+/*Uma pessoa utiliza o transporte público diariamente para ir e voltar de São Francisco do Sul para Araquari. Pergunte ao usuário o custo de cada passagem. 
+ Seu filho também o acompanha durante a viagem, porém paga apenas metade do preço por ser estudante.
+
+ Calcule e apresente, ao final do programa, o custo total mensal que os dois terão em transporte, considerando que o mês possui 22 dias úteis.*/
+
+
+ const ida = Number(prompt("qual é o preço da passagem de ida"));
+ const volta = Number(prompt("qual é o preço da passagem de volta"));
+
+
+ const result1 = ida/2
+ const result2 = volta/2
+ const result3 = ida + volta + result1 + result2
+ const result4 = result3 * 22
+
+
+
+document.write(`o custo total desse mês foi de ${result4}R$`);
+
+
+
+    </script>
